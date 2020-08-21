@@ -6,9 +6,9 @@ PHLAK's Coding Standards
     <a href="https://github.com/users/PHLAK/sponsorship"><img src="https://img.shields.io/badge/Become_a-Sponsor-cc4195.svg?style=for-the-badge" alt="Become a Sponsor"></a>
     <a href="https://paypal.me/ChrisKankiewicz"><img src="https://img.shields.io/badge/Make_a-Donation-006bb6.svg?style=for-the-badge" alt="One-time Donation"></a>
     <br>
-    <a href="https://packagist.org/packages/PHLAK/CodingStandards"><img src="https://img.shields.io/packagist/v/PHLAK/CodingStandards.svg?style=flat-square" alt="Latest Stable Version"></a>
-    <a href="https://packagist.org/packages/PHLAK/CodingStandards"><img src="https://img.shields.io/packagist/dt/PHLAK/CodingStandards.svg?style=flat-square" alt="Total Downloads"></a>
-    <a href="https://packagist.org/packages/PHLAK/CodingStandards"><img src="https://img.shields.io/packagist/l/PHLAK/CodingStandards.svg?style=flat-square" alt="License"></a>
+    <a href="https://packagist.org/packages/phlak/coding-standards"><img src="https://img.shields.io/packagist/v/phlak/coding-standards.svg?style=flat-square" alt="Latest Stable Version"></a>
+    <a href="https://packagist.org/packages/phlak/coding-standards"><img src="https://img.shields.io/packagist/dt/phlak/coding-standards.svg?style=flat-square" alt="Total Downloads"></a>
+    <a href="https://packagist.org/packages/phlak/coding-standards"><img src="https://img.shields.io/packagist/l/phlak/coding-standards.svg?style=flat-square" alt="License"></a>
     <a href="https://travis-ci.org/PHLAK/CodingStandards"><img src="https://img.shields.io/travis/PHLAK/CodingStandards.svg?style=flat-square" alt="Build Status"></a>
     <a href="https://styleci.io/repos/289172270"><img src="https://styleci.io/repos/289172270/shield?branch=master&style=flat-square" alt="StyleCI"></a>
 </p>
