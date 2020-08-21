@@ -1,0 +1,49 @@
+{
+    "name": "phlak/coding-standards",
+    "description": "A pre-defined set of coding standards for PHP CS Fixer.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Kankiewicz",
+            "email": "Chris@ChrisKankiewicz.com"
+        }
+    ],
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/PHLAK"
+        },
+        {
+            "type": "paypal",
+            "url": "https://paypal.me/ChrisKankiewicz"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/PHLAK/CodingStandards/issues"
+    },
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "php": ">=7.4",
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "phpunit/phpunit": "^9.3",
+        "symfony/var-dumper": "^5.1",
+        "vimeo/psalm": "^3.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHLAK\\CodingStandards\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
