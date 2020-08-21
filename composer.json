@@ -26,7 +26,7 @@
         "php": ">=7.2"
     },
     "require-dev": {
-        "php": ">=7.4",
+        "php": ">=7.2",
         "friendsofphp/php-cs-fixer": "^2.16",
         "phpunit/phpunit": "^9.3",
         "symfony/var-dumper": "^5.1",

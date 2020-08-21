@@ -12,7 +12,7 @@ class ConfigFactory
     public static function make(Finder $finder, array $rules = []): ConfigInterface
     {
         return Config::create()->setFinder($finder)->setRules(
-            array_replace_recursive(require self::rulesFilePath(), $rules)
+            array_replace_recursive((array) require self::rulesFilePath(), $rules)
         );
     }
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files psalm-version="3.14.1@9822043ca46d6682b76097bfa97d7c450eef9e90">
+  <file src="src/ConfigFactory.php">
+    <UnresolvableInclude occurrences="1">
+      <code>require self::rulesFilePath()</code>
+    </UnresolvableInclude>
+  </file>
+</files>
