@@ -50,7 +50,7 @@ return PHLAK\CodingStandards\ConfigFactory::make($finder);
 
 Now you may run `php-cs-fixer` as normal.
 
-### Add / Override Rules
+#### Add / Override Rules
 
 You can add additional rules or override pre-defined ones by passing them as the second parameter to the `ConfigFactory::make()` method. These rules will be merged with the pre-defined rules.
 
@@ -60,7 +60,7 @@ return PHLAK\CodingStandards\ConfigFactory::make($finder, [
 ]);
 ```
 
-### Additional Configuration
+#### Additional Configuration
 
 Additional configuration can be achieved by chaining methods onto the `ConfigFactory::make()` method.
 
@@ -70,7 +70,6 @@ return PHLAK\CodingStandards\ConfigFactory::make($finder)
     ->setLineEnding("\r\n")
     ->setRiskyAllowed();
 ```
-
 
 Changelog
 ---------
