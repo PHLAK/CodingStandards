@@ -135,6 +135,11 @@ return [
     'phpdoc_annotation_without_dot' => true,
     'phpdoc_indent' => true,
     'phpdoc_inline_tag' => true,
+    'phpdoc_line_span' => [
+        'const' => 'single',
+        'method' => 'single',
+        'property' => 'single',
+    ],
     'phpdoc_no_access' => true,
     'phpdoc_no_alias_tag' => [
         'replacements' => [
