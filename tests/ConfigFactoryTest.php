@@ -25,9 +25,21 @@ class ConfigFactoryTest extends TestCase
     {
         $config = ConfigFactory::make(Finder::create()->in(__DIR__), [
             'array_syntax' => 'long',
+            'class_attributes_separation' => [
+                'elements' => ['const', 'property'],
+            ],
+            'visibility_required' => [
+                'elements' => ['const', 'property'],
+            ],
         ]);
 
         $this->assertInstanceOf(Config::class, $config);
         $this->assertEquals('long', $config->getRules()['array_syntax']);
+        $this->assertEquals([
+            'elements' => ['const', 'property'],
+        ], $config->getRules()['class_attributes_separation']);
+        $this->assertEquals([
+            'elements' => ['const', 'property'],
+        ], $config->getRules()['visibility_required']);
     }
 }
