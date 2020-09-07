@@ -176,6 +176,7 @@ return [
         'groups' => ['simple', 'alias', 'meta'],
     ],
     'phpdoc_types_order' => [
+        'null_adjustment' => 'always_last',
         'sort_algorithm' => 'alpha',
     ],
     'phpdoc_var_without_name' => true,
