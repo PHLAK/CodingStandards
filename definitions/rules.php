@@ -25,7 +25,7 @@ return [
         'space' => 'single',
     ],
     'class_attributes_separation' => [
-        'elements' => ['const', 'method', 'property'],
+        'elements' => ['method'],
     ],
     'class_definition' => [
         'multi_line_extends_each_single_line' => false,
