@@ -149,7 +149,7 @@ return [
             'link' => 'see',
         ],
     ],
-    'phpdoc_no_empty_return' => false,
+    'phpdoc_no_empty_return' => true,
     'phpdoc_no_package' => true,
     'phpdoc_no_useless_inheritdoc' => true,
     'phpdoc_order' => true,
@@ -177,7 +177,7 @@ return [
     ],
     'phpdoc_types_order' => [
         'null_adjustment' => 'always_last',
-        'sort_algorithm' => 'alpha',
+        'sort_algorithm' => 'none',
     ],
     'phpdoc_var_without_name' => true,
     'return_type_declaration' => [
