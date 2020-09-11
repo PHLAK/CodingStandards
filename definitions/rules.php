@@ -129,7 +129,7 @@ return [
     ],
     'php_unit_fqcn_annotation' => true,
     'phpdoc_align' => [
-        'align' => 'vertical',
+        'align' => 'left',
         'tags' => ['param', 'return', 'throws', 'type', 'var'],
     ],
     'phpdoc_annotation_without_dot' => true,
