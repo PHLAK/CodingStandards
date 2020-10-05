@@ -99,7 +99,7 @@ return [
     'no_spaces_inside_parenthesis' => true,
     'no_superfluous_elseif' => true,
     'no_superfluous_phpdoc_tags' => [
-        'allow_mixed' => false,
+        'allow_mixed' => true,
         'allow_unused_params' => false,
         'remove_inheritdoc' => false,
     ],
