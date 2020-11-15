@@ -123,7 +123,13 @@ return [
     'normalize_index_brace' => true,
     'not_operator_with_successor_space' => true,
     'object_operator_without_whitespace' => true,
-    'ordered_class_elements' => true,
+    'ordered_class_elements' => [
+        'use_trait',
+        'constant_public', 'constant_protected', 'constant_private',
+        'property_public', 'property_protected', 'property_private',
+        'construct', 'destruct', 'magic', 'phpunit',
+        'method_static', 'method_public', 'method_protected', 'method_private',
+    ],
     'ordered_imports' => [
         'sort_algorithm' => 'alpha',
     ],
