@@ -11,7 +11,7 @@ class ConfigFactory
     /** Create a PHP CS Fixer Config object. */
     public static function make(Finder $finder, array $rules = []): ConfigInterface
     {
-        return Config::create()->setFinder($finder)->setRules(
+        return (new Config)->setFinder($finder)->setRules(
             array_replace((array) require self::rulesFilePath(), $rules)
         );
     }
