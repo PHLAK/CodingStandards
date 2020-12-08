@@ -134,6 +134,9 @@ return [
         'sort_algorithm' => 'alpha',
     ],
     'php_unit_fqcn_annotation' => true,
+    'php_unit_method_casing' => 'snake_case',
+    'php_unit_test_annotation' => 'annotation',
+    'php_unit_test_class_requires_covers' => true,
     'phpdoc_align' => [
         'align' => 'left',
         'tags' => ['param', 'return', 'throws', 'type', 'var'],
