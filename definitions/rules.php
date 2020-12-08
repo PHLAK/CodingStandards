@@ -135,7 +135,7 @@ return [
     ],
     'php_unit_fqcn_annotation' => true,
     'php_unit_method_casing' => [
-        'case' => 'snake_case'
+        'case' => 'snake_case',
     ],
     'php_unit_test_class_requires_covers' => true,
     'phpdoc_align' => [
