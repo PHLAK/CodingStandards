@@ -137,7 +137,6 @@ return [
     'php_unit_method_casing' => [
         'case' => 'snake_case',
     ],
-    'php_unit_test_class_requires_covers' => true,
     'phpdoc_align' => [
         'align' => 'left',
         'tags' => ['param', 'return', 'throws', 'type', 'var'],
