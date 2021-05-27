@@ -22,11 +22,13 @@
     "support": {
         "issues": "https://github.com/PHLAK/CodingStandards/issues"
     },
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "friendsofphp/php-cs-fixer": "^3.0"
+    },
     "require-dev": {
-        "php": ">=7.2",
-        "friendsofphp/php-cs-fixer": "^2.16",
         "symfony/var-dumper": "^5.1",
-        "vimeo/psalm": "^3.14 || ^4.0",
+        "vimeo/psalm": "^4.0",
         "yoast/phpunit-polyfills": "^0.2.0"
     },
     "autoload": {

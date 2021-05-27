@@ -25,7 +25,7 @@ return [
         'space' => 'single',
     ],
     'class_attributes_separation' => [
-        'elements' => ['method'],
+        'elements' => ['method' => 'one'],
     ],
     'class_definition' => [
         'multi_line_extends_each_single_line' => false,
@@ -89,7 +89,6 @@ return [
         'use' => 'echo',
     ],
     'no_multiline_whitespace_around_double_arrow' => true,
-    'no_multiline_whitespace_before_semicolons' => true,
     'no_short_bool_cast' => true,
     'no_singleline_whitespace_before_semicolons' => true,
     'no_spaces_after_function_name' => true,
@@ -124,11 +123,13 @@ return [
     'not_operator_with_successor_space' => true,
     'object_operator_without_whitespace' => true,
     'ordered_class_elements' => [
-        'use_trait',
-        'constant_public', 'constant_protected', 'constant_private',
-        'property_public', 'property_protected', 'property_private',
-        'construct', 'destruct', 'magic', 'phpunit',
-        'method_static', 'method_public', 'method_protected', 'method_private',
+        'order' => [
+            'use_trait',
+            'constant_public', 'constant_protected', 'constant_private',
+            'property_public', 'property_protected', 'property_private',
+            'construct', 'destruct', 'magic', 'phpunit',
+            'method_static', 'method_public', 'method_protected', 'method_private',
+        ],
     ],
     'ordered_imports' => [
         'sort_algorithm' => 'alpha',
@@ -143,7 +144,6 @@ return [
     ],
     'phpdoc_annotation_without_dot' => true,
     'phpdoc_indent' => true,
-    'phpdoc_inline_tag' => true,
     'phpdoc_line_span' => [
         'const' => 'single',
         'method' => 'single',
@@ -212,12 +212,18 @@ return [
     'switch_case_semicolon_to_colon' => true,
     'switch_case_space' => true,
     'ternary_operator_spaces' => true,
-    'trailing_comma_in_multiline_array' => true,
+    'trailing_comma_in_multiline' => [
+        'elements' => ['arrays'],
+    ],
     'trim_array_spaces' => true,
     'unary_operator_spaces' => true,
     'visibility_required' => [
         'elements' => ['property', 'method', 'const'],
     ],
     'whitespace_after_comma_in_array' => true,
-    'yoda_style' => null,
+    'yoda_style' => [
+        'equal' => false,
+        'identical' => false,
+        'less_and_greater' => false,
+    ],
 ];
