@@ -2,15 +2,14 @@ PHLAK's Coding Standards
 ========================
 
 <p align="center">
-    <a href="https://spectrum.chat/phlaknet"><img src="https://img.shields.io/badge/Join_the-Community-7b16ff.svg?style=for-the-badge" alt="Join our Community"></a>
+    <a href="https://github.com/PHLAK/CodingStandards/discussions"><img src="https://img.shields.io/badge/Join_the-Community-7b16ff.svg?style=for-the-badge" alt="Join our Community"></a>
     <a href="https://github.com/users/PHLAK/sponsorship"><img src="https://img.shields.io/badge/Become_a-Sponsor-cc4195.svg?style=for-the-badge" alt="Become a Sponsor"></a>
     <a href="https://paypal.me/ChrisKankiewicz"><img src="https://img.shields.io/badge/Make_a-Donation-006bb6.svg?style=for-the-badge" alt="One-time Donation"></a>
     <br>
     <a href="https://packagist.org/packages/phlak/coding-standards"><img src="https://img.shields.io/packagist/v/phlak/coding-standards.svg?style=flat-square" alt="Latest Stable Version"></a>
     <a href="https://packagist.org/packages/phlak/coding-standards"><img src="https://img.shields.io/packagist/dt/phlak/coding-standards.svg?style=flat-square" alt="Total Downloads"></a>
     <a href="https://packagist.org/packages/phlak/coding-standards"><img src="https://img.shields.io/packagist/l/phlak/coding-standards.svg?style=flat-square" alt="License"></a>
-    <a href="https://travis-ci.com/PHLAK/CodingStandards"><img src="https://img.shields.io/travis/com/PHLAK/CodingStandards.svg?style=flat-square" alt="Build Status"></a>
-    <a href="https://styleci.io/repos/289172270"><img src="https://styleci.io/repos/289172270/shield?branch=master&style=flat-square" alt="StyleCI"></a>
+    <a href="https://github.com/PHLAK/CodingStandards/actions"><img src="https://img.shields.io/github/checks-status/PHLAK/CodingStandards/master?style=flat-square" alt="GitHub branch checks state"></a>
 </p>
 
 <p align="center">
@@ -79,7 +78,7 @@ A list of changes can be found on the [GitHub Releases](https://github.com/PHLAK
 Troubleshooting
 ---------------
 
-For general help and support join our [Spectrum Community](https://spectrum.chat/phlak) or reach out on [Twitter](https://twitter.com/PHLAK).
+For general help and support join our [GitHub Discussions](https://github.com/PHLAK/CodingStandards/discussions) or reach out on [Twitter](https://twitter.com/PHLAK).
 
 Please report bugs to the [GitHub Issue Tracker](https://github.com/PHLAK/CodingStandards/issues).
 
