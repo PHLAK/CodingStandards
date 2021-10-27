@@ -33,7 +33,7 @@ Installation
 Usage
 -----
 
-After installing in your project, create a `.php_cs.dist` file in the root folder with the following contents.
+After installing in your project, create a `.php-cs-fxer.dist.php` file in the root folder with the following contents.
 
 ```php
 <?php
