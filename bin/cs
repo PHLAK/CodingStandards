@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+
+for ($level = 1; $level <= 5; ++$level) {
+    if (is_readable($autoloader = dirname(__DIR__, $level) . '/vendor/autoload.php')) {
+        require $autoloader;
+
+        break;
+    }
+}
+
+use PHLAK\CodingStandards\Commands\Initialize;
+use Symfony\Component\Console\Application;
+
+$application = new Application();
+
+$application->add(new Initialize);
+
+$application->run();

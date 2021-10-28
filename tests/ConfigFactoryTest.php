@@ -5,7 +5,6 @@ namespace Tests;
 use PHLAK\CodingStandards\ConfigFactory;
 use PhpCsFixer\Config;
 use PhpCsFixer\Finder;
-use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 /** @covers \PHLAK\CodingStandards\ConfigFactory */
 class ConfigFactoryTest extends TestCase

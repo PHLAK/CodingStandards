@@ -33,7 +33,11 @@ Installation
 Usage
 -----
 
-After installing in your project, create a `.php-cs-fxer.dist.php` file in the root folder with the following contents.
+After installation you may initialze the coding standards configuration with the provided `cs` executable.
+
+    composer exec cs init
+
+Alternatively you may manually create a `.php-cs-fxer.dist.php` file in the root folder with the following contents.
 
 ```php
 <?php
@@ -46,6 +50,8 @@ $finder = PhpCsFixer\Finder::create()->in([
 
 return PHLAK\CodingStandards\ConfigFactory::make($finder);
 ```
+
+Add the paths you wish to be coverd to the array.
 
 Now you may run `php-cs-fixer` as normal.
 
