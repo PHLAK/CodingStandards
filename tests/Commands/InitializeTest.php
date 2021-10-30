@@ -9,7 +9,8 @@ use Tests\TestCase;
 /** @covers \PHLAK\CodingStandards\Commands\Initialize */
 class InitializeTest extends TestCase
 {
-    private CommandTester $command;
+    /** @var CommandTester */
+    private $command;
 
     protected function setUp(): void
     {

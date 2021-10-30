@@ -13,8 +13,8 @@ class TestCase extends BaseTestCase
     protected const CONFIG_FILE_PATH = self::TEST_DATA_PATH . '/' . self::CONFIG_FILE_NAME;
     protected const CONFIG_FILE_SUBDIR_PATH = self::TEST_DATA_PATH . '/subdir/' . self::CONFIG_FILE_NAME;
 
-    /** Property description... */
-    protected Application $application;
+    /** @var Application */
+    protected $application;
 
     protected function setUp(): void
     {
