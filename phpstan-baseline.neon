@@ -1,0 +1,7 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Method PHLAK\\\\CodingStandards\\\\ConfigFactory\\:\\:make\\(\\) has parameter \\$rules with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/ConfigFactory.php
+

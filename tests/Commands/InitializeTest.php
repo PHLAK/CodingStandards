@@ -36,7 +36,7 @@ class InitializeTest extends TestCase
         $this->assertMatchesRegularExpression('/Initialized coding standards configuration in .+/', $this->command->getDisplay());
         $this->assertEquals(Command::SUCCESS, $this->command->getStatusCode());
         $this->assertFileExists(self::CONFIG_FILE_PATH);
-        $this->assertStringEqualsFile(self::CONFIG_FILE_PATH, file_get_contents(dirname(__DIR__, 2) . '/stubs/.php-cs-fixer.dist.php'));
+        $this->assertStringEqualsFile(self::CONFIG_FILE_PATH, (string) file_get_contents(dirname(__DIR__, 2) . '/stubs/.php-cs-fixer.dist.php'));
     }
 
     /** @test */
@@ -57,6 +57,6 @@ class InitializeTest extends TestCase
         $this->assertMatchesRegularExpression('/Initialized coding standards configuration in subdir/', $this->command->getDisplay());
         $this->assertEquals(Command::SUCCESS, $this->command->getStatusCode());
         $this->assertFileExists(self::CONFIG_FILE_SUBDIR_PATH);
-        $this->assertStringEqualsFile(self::CONFIG_FILE_SUBDIR_PATH, file_get_contents(dirname(__DIR__, 2) . '/stubs/.php-cs-fixer.dist.php'));
+        $this->assertStringEqualsFile(self::CONFIG_FILE_SUBDIR_PATH, (string) file_get_contents(dirname(__DIR__, 2) . '/stubs/.php-cs-fixer.dist.php'));
     }
 }

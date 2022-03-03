@@ -1,0 +1,12 @@
+parameters:
+  level: max
+
+  paths:
+    - bin
+    - definitions
+    - src
+    - stubs
+    - tests
+
+includes:
+  - phpstan-baseline.neon

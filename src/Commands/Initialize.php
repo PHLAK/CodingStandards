@@ -30,6 +30,12 @@ class Initialize extends Command
     /** @inheritdoc */
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
+        if (! is_string($input->getArgument('path'))) {
+            $output->writeln('<fg=yellow>Path must be a string</>');
+
+            return self::FAILURE;
+        }
+
         if (file_exists(self::CONFIG_FILE_NAME)) {
             /** @var QuestionHelper $helper */
             $helper = $this->getHelper('question');
@@ -38,7 +44,7 @@ class Initialize extends Command
             if (! $helper->ask($input, $output, $question)) {
                 $output->writeln('<fg=yellow>Aborted!</>');
 
-                return Command::SUCCESS;
+                return self::SUCCESS;
             }
         }
 
