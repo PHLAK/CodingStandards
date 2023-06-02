@@ -70,7 +70,10 @@ return [
     ],
     'native_function_casing' => true,
     'native_function_type_declaration_casing' => true,
-    'new_with_braces' => false,
+    'new_with_braces' => [
+        'anonymous_class' => false,
+        'named_class' => false,
+    ],
     'no_blank_lines_after_class_opening' => true,
     'no_blank_lines_after_phpdoc' => true,
     'no_break_comment' => [
@@ -205,6 +208,7 @@ return [
     'single_line_comment_style' => [
         'comment_types' => ['asterisk', 'hash'],
     ],
+    'single_line_empty_body' => true,
     'single_line_throw' => true,
     'single_quote' => true,
     'space_after_semicolon' => true,
