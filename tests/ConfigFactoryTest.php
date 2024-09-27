@@ -5,8 +5,10 @@ namespace Tests;
 use PHLAK\CodingStandards\ConfigFactory;
 use PhpCsFixer\Config;
 use PhpCsFixer\Finder;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\Attributes\Test;
 
-/** @covers \PHLAK\CodingStandards\ConfigFactory */
+#[CoversClass(ConfigFactory::class)]
 class ConfigFactoryTest extends TestCase
 {
     public function test_it_can_be_intialized_with_default_rules(): void
@@ -20,7 +22,8 @@ class ConfigFactoryTest extends TestCase
         );
     }
 
-    public function test_it_can_be_initialized_with_custom_rules(): void
+    #[Test]
+    public function it_can_be_initialized_with_custom_rules(): void
     {
         $config = ConfigFactory::make(Finder::create()->in(__DIR__), [
             'array_syntax' => 'long',

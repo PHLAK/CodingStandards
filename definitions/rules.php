@@ -103,7 +103,6 @@ return [
     'no_superfluous_phpdoc_tags' => [
         'allow_mixed' => true,
         'allow_unused_params' => false,
-        'remove_inheritdoc' => false,
     ],
     'no_trailing_comma_in_list_call' => true,
     'no_trailing_comma_in_singleline_array' => true,
