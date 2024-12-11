@@ -2,7 +2,8 @@
 
 return [
     '@PSR1' => true,
-    '@PSR2' => true,
+    '@PSR12' => true,
+    'align_multiline_comment' => false,
     'array_indentation' => true,
     'array_syntax' => [
         'syntax' => 'short',
@@ -13,7 +14,7 @@ return [
     'blank_line_after_namespace' => true,
     'blank_line_after_opening_tag' => true,
     'blank_line_before_statement' => [
-        'statements' => ['break', 'continue', 'declare', 'return', 'throw', 'try'],
+        'statements' => ['break', 'continue', 'declare', 'default', 'exit', 'if', 'return', 'switch', 'throw', 'try'],
     ],
     'braces' => [
         'allow_single_line_closure' => false,
@@ -32,6 +33,8 @@ return [
         'single_item_single_line' => false,
         'single_line' => false,
     ],
+    'combine_consecutive_issets' => true,
+    'combine_consecutive_unsets' => true,
     'concat_space' => [
         'spacing' => 'one',
     ],
@@ -57,7 +60,6 @@ return [
     'linebreak_after_opening_tag' => true,
     'lowercase_cast' => true,
     'lowercase_keywords' => true,
-    'lowercase_static_reference' => true,
     'magic_constant_casing' => true,
     'magic_method_casing' => true,
     'method_argument_space' => [
@@ -65,6 +67,8 @@ return [
         'keep_multiple_spaces_after_comma' => false,
         'on_multiline' => 'ignore',
     ],
+    'method_chaining_indentation' => true,
+    'multiline_comment_opening_closing' => true,
     'multiline_whitespace_before_semicolons' => [
         'strategy' => 'no_multi_line',
     ],
@@ -74,7 +78,6 @@ return [
         'anonymous_class' => false,
         'named_class' => false,
     ],
-    'no_blank_lines_after_class_opening' => true,
     'no_blank_lines_after_phpdoc' => true,
     'no_break_comment' => [
         'comment_text' => 'no break',
@@ -86,7 +89,6 @@ return [
     'no_extra_blank_lines' => [
         'tokens' => ['extra'],
     ],
-    'no_leading_import_slash' => true,
     'no_leading_namespace_whitespace' => true,
     'no_mixed_echo_print' => [
         'use' => 'echo',
@@ -120,7 +122,6 @@ return [
     'no_whitespace_before_comma_in_array' => [
         'after_heredoc' => false,
     ],
-    'no_whitespace_in_blank_line' => true,
     'normalize_index_brace' => true,
     'not_operator_with_successor_space' => true,
     'object_operator_without_whitespace' => true,
@@ -136,6 +137,7 @@ return [
     ],
     'ordered_imports' => [
         'sort_algorithm' => 'alpha',
+        'imports_order' => ['class', 'function', 'const'],
     ],
     'php_unit_fqcn_annotation' => true,
     'php_unit_method_casing' => [
@@ -192,17 +194,15 @@ return [
         'sort_algorithm' => 'none',
     ],
     'phpdoc_var_without_name' => true,
+    'php_unit_attributes' => true,
     'return_type_declaration' => [
         'space_before' => 'none',
     ],
     'semicolon_after_instruction' => true,
-    'short_scalar_cast' => true,
     'single_blank_line_at_eof' => true,
-    'single_blank_line_before_namespace' => true,
     'single_class_element_per_statement' => [
         'elements' => ['const', 'property'],
     ],
-    'single_import_per_statement' => true,
     'single_line_after_imports' => true,
     'single_line_comment_style' => [
         'comment_types' => ['asterisk', 'hash'],
@@ -215,7 +215,6 @@ return [
     'standardize_not_equals' => true,
     'switch_case_semicolon_to_colon' => true,
     'switch_case_space' => true,
-    'ternary_operator_spaces' => true,
     'trailing_comma_in_multiline' => [
         'elements' => ['arrays'],
     ],
@@ -224,7 +223,9 @@ return [
     'visibility_required' => [
         'elements' => ['property', 'method', 'const'],
     ],
-    'whitespace_after_comma_in_array' => true,
+    'whitespace_after_comma_in_array' => [
+        'ensure_single_space' => true,
+    ],
     'yoda_style' => [
         'equal' => false,
         'identical' => false,
