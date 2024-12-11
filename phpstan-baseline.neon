@@ -1,7 +1,8 @@
 parameters:
 	ignoreErrors:
 		-
-			message: "#^Method PHLAK\\\\CodingStandards\\\\ConfigFactory\\:\\:make\\(\\) has parameter \\$rules with no value type specified in iterable type array\\.$#"
+			message: '#^Parameter \#1 \$rules of method PhpCsFixer\\ConfigInterface\:\:setRules\(\) expects array\<string, array\<string, mixed\>\|bool\>, array given\.$#'
+			identifier: argument.type
 			count: 1
 			path: src/ConfigFactory.php
 

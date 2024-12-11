@@ -8,7 +8,11 @@ use PhpCsFixer\Finder;
 
 class ConfigFactory
 {
-    /** Create a PHP CS Fixer Config object. */
+    /**
+     * Create a PHP CS Fixer Config object.
+     *
+     * @param array<string, mixed> $rules
+     */
     public static function make(Finder $finder, array $rules = []): ConfigInterface
     {
         return (new Config)->setFinder($finder)->setRules(
