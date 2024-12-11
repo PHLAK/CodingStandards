@@ -9,13 +9,13 @@ PHLAK's Coding Standards
     <a href="https://packagist.org/packages/phlak/coding-standards"><img src="https://img.shields.io/packagist/v/phlak/coding-standards.svg?style=flat-square" alt="Latest Stable Version"></a>
     <a href="https://packagist.org/packages/phlak/coding-standards"><img src="https://img.shields.io/packagist/dt/phlak/coding-standards.svg?style=flat-square" alt="Total Downloads"></a>
     <a href="https://packagist.org/packages/phlak/coding-standards"><img src="https://img.shields.io/packagist/l/phlak/coding-standards.svg?style=flat-square" alt="License"></a>
-    <a href="https://github.com/PHLAK/CodingStandards/actions"><img src="https://img.shields.io/github/checks-status/PHLAK/CodingStandards/master?style=flat-square" alt="GitHub branch checks state"></a>
+    <a href="https://github.com/PHLAK/CodingStandards/actions"><img src="https://img.shields.io/github/actions/workflow/status/PHLAK/CodingStandards/test-suite.yaml?branch=master&style=flat-square" alt="Test Suite"></a>
 </p>
 
 <p align="center">
     A pre-defined set of coding standards for PHP CS Fixer
     <br>
-    Created by <a href="https://www.ChrisKankiewicz.com">Chris Kankiewicz</a> (<a href="https://twitter.com/PHLAK">@PHLAK</a>)
+    Created by <a href="https://www.ChrisKankiewicz.com">Chris Kankiewicz</a> (<a href="https://bsky.app/profile/phlak.dev">@phlak.dev</a>)
 </p>
 
 ---
@@ -23,7 +23,7 @@ PHLAK's Coding Standards
 Requirements
 ------------
 
-  - PHP >= 7.2
+  - PHP >= 8.1
 
 Installation
 ------------
@@ -84,7 +84,7 @@ A list of changes can be found on the [GitHub Releases](https://github.com/PHLAK
 Troubleshooting
 ---------------
 
-For general help and support join our [GitHub Discussions](https://github.com/PHLAK/CodingStandards/discussions) or reach out on [Twitter](https://twitter.com/PHLAK).
+For general help and support join our [GitHub Discussions](https://github.com/PHLAK/CodingStandards/discussions) or reach out on [Bluesky](https://bsky.app/profile/phlak.dev).
 
 Please report bugs to the [GitHub Issue Tracker](https://github.com/PHLAK/CodingStandards/issues).
 
