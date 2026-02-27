@@ -11,7 +11,7 @@ class AppManager
     {
         $application = new Application;
 
-        $application->add(new Initialize);
+        $application->addCommand(new Initialize);
 
         return $application;
     }

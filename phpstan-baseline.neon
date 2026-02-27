@@ -1,7 +1,7 @@
 parameters:
 	ignoreErrors:
 		-
-			message: '#^Parameter \#1 \$rules of method PhpCsFixer\\ConfigInterface\:\:setRules\(\) expects array\<string, array\<string, mixed\>\|bool\>, array given\.$#'
+			message: '#^Parameter \#1 \$rules of method PhpCsFixer\\Config\:\:setRules\(\) expects array\<string, array\<string, mixed\>\|bool\>, array given\.$#'
 			identifier: argument.type
 			count: 1
 			path: src/ConfigFactory.php
