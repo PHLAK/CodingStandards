@@ -128,6 +128,7 @@ return [
     'ordered_class_elements' => [
         'order' => [
             'use_trait',
+            'case',
             'constant_public', 'constant_protected', 'constant_private',
             'property_public', 'property_protected', 'property_private',
             'construct', 'destruct', 'magic', 'phpunit',
@@ -150,6 +151,8 @@ return [
     'phpdoc_annotation_without_dot' => true,
     'phpdoc_indent' => true,
     'phpdoc_line_span' => [
+        'case' => 'single',
+        'class' => 'single',
         'const' => 'single',
         'method' => 'single',
         'property' => 'single',
