@@ -23,7 +23,7 @@ PHLAK's Coding Standards
 Requirements
 ------------
 
-  - PHP >= 8.1
+  - PHP
 
 Installation
 ------------
