@@ -74,7 +74,7 @@ return [
     ],
     'native_function_casing' => true,
     'native_function_type_declaration_casing' => true,
-    'new_with_braces' => [
+    'new_with_parentheses' => [
         'anonymous_class' => false,
         'named_class' => false,
     ],
